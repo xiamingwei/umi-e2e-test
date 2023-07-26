@@ -1,7 +1,7 @@
 import { test, expect } from 'playwright-test-coverage';
 
-test.describe('测试集标题', () => {
-  test('测试用例标题', async ({ page }) => {
+test.describe('test', () => {
+  test('test title', async ({ page }) => {
     await page.goto('http://localhost:8000/form');
 
     await page.getByLabel('Username').click();
