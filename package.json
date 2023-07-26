@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "author": "xiamingwei",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev",
+    "e2e": "playwright install chromium && playwright test"
+  },
+  "dependencies": {
+    "antd": "^5.7.3",
+    "umi": "^4.0.72",
+    "playwright-test-coverage": "^1.2.12"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3",
+    "@playwright/test": "^1.31.2",
+    "nyc": "^15.1.0",
+    "babel-plugin-istanbul": "^6.1.1"
+  },
+  "repository": "https://github.com/xiamingwei/umi-e2e-test.git"
+}
